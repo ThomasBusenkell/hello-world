@@ -1,61 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>VR View - gallery example</title>
+    <title>Test 360</title>
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <link href="../style.css" rel="stylesheet" type="text/css">
     <style>
-      ul.carousel {
-        display: flex;
-        width: 720px;
-        margin: 20px auto;
-        padding: 0;
-        justify-content: center;
-        overflow: auto;
-      }
 
-      /* MOBILE */
-      @media screen and (max-width: 700px) {
-        ul.carousel {
-          width: 100%;
-          justify-content: flex-start;
-        }
-
-          ul.carousel li:first-child {
-            padding-left: 0;
-          }
-
-          ul.carousel li:last-child {
-            padding-right: 0;
-          }
-      }
-
-        ul.carousel li {
-          list-style: none;
-          margin: 0;
-          padding: 0 10px;
-          display: inline-block;
-        }
-          ul.carousel li a {
-            display: inline-block;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            color: #999;
-            text-decoration: none;
-          }
-            ul.carousel li a.current {
-              color: blue;
-              text-decoration: underline;
-            }
-            ul.carousel li a img {
-              width: 124px;
-              height: 80px;
-            }
-            ul.carousel li a small {
-              display: block;
-            }
     </style>
   </head>
   <body>
@@ -68,8 +19,7 @@
     <div id="vrview"></div>
 
    
-    <p>Sources: <a href="https://en.wikipedia.org/wiki/Wonders_of_the_World#New7Wonders_of_World">Wikipedia</a> and <a href="https://www.google.com/streetview/">Google Street View</a>.</p>
-
+   
     <script src="../../build/vrview.js"></script>
     <script src="index.js"></script>
   </body>
